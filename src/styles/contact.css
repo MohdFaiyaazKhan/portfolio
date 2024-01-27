@@ -33,6 +33,15 @@
   text-decoration: none;
 }
 
+.resume{
+  color: azure;
+  background: linear-gradient(0deg, var(--transparent), #ae6520 70%);
+  border-radius: var(--radius-right); 
+  align-items: left;
+  width: 7rem;
+  text-decoration: none;
+}
+
 @media (max-width: 1100px) {
   .contact-menu {
     top: 50%;

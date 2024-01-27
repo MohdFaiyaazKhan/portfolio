@@ -5,6 +5,7 @@ export default function ContactMenu() {
   const linkedInProfileUrl = "https://www.linkedin.com/in/mohdfaiyaazkhan/";
   const GithubProfileUrl = "https://github.com/MohdFaiyaazKhan";
   const MailUrl = "mailto:Khanfaiyaaz179@gmail.com";
+  const Resume = "https://drive.google.com/file/d/1LFK7RhKGmiVPkhR0ignvRZpRuVyF0baQ/view?usp=drive_link"
 
   return (
     <div className="contact-menu">
@@ -21,6 +22,11 @@ export default function ContactMenu() {
         <p>Mail me on:</p>
         <a className="mail" href={MailUrl} target="_blank" rel="noopener noreferrer">
           Khanfaiyaaz179@gmail.com
+        </a>
+        
+        <p>Check my Resume here:</p>
+        <a className="resume" href={Resume} target="_blank" rel="noopener noreferrer">
+          MyResume
         </a>
       </div>
 
