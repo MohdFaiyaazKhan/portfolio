@@ -5,7 +5,7 @@ export default function ContactMenu() {
   const linkedInProfileUrl = "https://www.linkedin.com/in/mohdfaiyaazkhan/";
   const GithubProfileUrl = "https://github.com/MohdFaiyaazKhan";
   const MailUrl = "mailto:Khanfaiyaaz179@gmail.com";
-  const Resume = "https://drive.google.com/file/d/1LFK7RhKGmiVPkhR0ignvRZpRuVyF0baQ/view?usp=drive_link"
+  const Resume = "https://drive.google.com/file/d/1nZAXHhbldrtzVoqP4j9ZOJxVXHqaXLSp/view?usp=sharing"
 
   return (
     <div className="contact-menu">
